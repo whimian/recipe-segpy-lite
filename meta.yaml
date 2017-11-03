@@ -1,0 +1,25 @@
+package:
+  name: segpy-lite
+  version: "1.0.0"
+
+source:
+  git_rev: v1.0.0
+  git_url: https://github.com/whimian/segpy-lite.git
+  # path: .
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  # imports:
+  #   - segpy-lite
+
+about:
+  home: https://github.com/whimian/segpy-lite
+  license: MIT
+  license_file: LICENSE
